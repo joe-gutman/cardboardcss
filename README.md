@@ -27,7 +27,7 @@ Cardboard.CSS provides a set of classes that you can add to your HTML elements t
 ```
 You can customize the appearance further by combining classes or adjusting element sizes and content.
 
-<b><i>Example:</i></b> div with a paper texture with edges that emulates being cut by scissors.
+<b><i>Example:</i></b> div with a paper texture and edges that emulate being cut by scissors.
 ```html
 <div class="paper cut-1">
   <!-- Your content goes here -->
@@ -47,10 +47,10 @@ You can customize the appearance further by combining classes or adjusting eleme
 Here are some of the core classes provided by Cardboard.CSS:
 
 - `.cardboard`: Adds a cardboard texture to an element.
-  - If you add a `.top` or `.bottom` class in addition to `.cardboard`, it will create a top or bottom border that shows the wavy inner structure of cardboard.
+  - If you add a `.top` or `.bottom` class in addition to `.cardboard`, it will add border that shows the wavy inner structure of cardboard.
 - `.paper`: Applies a paper-like texture to an element.
-- `.cut`: Adds a paper-cut effect to an element.
-- `.distort`: Distorts the appearance of an element, adding a unique touch.
+- `.cut-[1-4]`: make the edges of an element look as if they were cut by scissors.
+- `.distort-[1-4]`:subtly rotates ands skews the element making it look as if it was placed by hand.
 
 Contributing
 We welcome contributions from the community. If you have ideas or want to contribute code, please feel free to do so. We believe in open collaboration.
