@@ -1,6 +1,6 @@
 # Cardboard.CSS 📦
 
-Cardboard.CSS is a visually appealing CSS framework designed for effortlessly enhancing wireframes and prototypes with depth and texture. It requires minimal effort through easy-to-use classes and simple size/content adjustments.
+Cardboard.CSS is a CSS framework designed easily make wireframes and prototypes visually appealing with depth and texture. It requires minimal effort through easy-to-use classes, all you have to do is create the structure and put in the content.
 
 ## Getting Started
 
@@ -26,6 +26,22 @@ Cardboard.CSS provides a set of classes that you can add to your HTML elements t
 </div>
 ```
 You can customize the appearance further by combining classes or adjusting element sizes and content.
+
+<b><i>Example:</i></b> div with a paper texture with edges that emulates being cut by scissors.
+```html
+<div class="paper cut-1">
+  <!-- Your content goes here -->
+</div>
+```
+
+<b><i>Example:</i></b> div with a cardboard texture and a bottom border that shows the wavy inner structure.
+```html
+<div class="cardboard bottom">
+  <!-- Your content goes here -->
+</div>
+```
+
+
 
 ### Classes
 Here are some of the core classes provided by Cardboard.CSS:
