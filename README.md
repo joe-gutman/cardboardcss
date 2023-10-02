@@ -30,10 +30,11 @@ You can customize the appearance further by combining classes or adjusting eleme
 ### Classes
 Here are some of the core classes provided by Cardboard.CSS:
 
-* .cardboard: Adds a cardboard texture to an element.
-* .paper: Applies a paper-like texture to an element.
-* .cut-[1-4]: Adds a paper-cut edge effect to an element.
-* .distort-[1-4]: Subtly distorts the appearance of an element, giving it the appearance of being placed by hand.
+- `.cardboard`: Adds a cardboard texture to an element.
+  - If you add a `.top` or `.bottom` class in addition to `.cardboard`, it will create a top or bottom border that shows the wavy inner structure of cardboard.
+- `.paper`: Applies a paper-like texture to an element.
+- `.cut`: Adds a paper-cut effect to an element.
+- `.distort`: Distorts the appearance of an element, adding a unique touch.
 
 Contributing
 We welcome contributions from the community. If you have ideas or want to contribute code, please feel free to do so. We believe in open collaboration.
