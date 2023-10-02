@@ -50,7 +50,7 @@ Here are some of the core classes provided by Cardboard.CSS:
   - If you add a `.top` or `.bottom` class in addition to `.cardboard`, it will add border that shows the wavy inner structure of cardboard.
 - `.paper`: Applies a paper-like texture to an element.
 - `.cut-[1-4]`: make the edges of an element look as if they were cut by scissors.
-- `.distort-[1-4]`:subtly rotates ands skews the element making it look as if it was placed by hand.
+- `.distort-[1-4]`: slightly rotates ands skews the element making it look as if it was placed by hand.
 
 Contributing
 We welcome contributions from the community. If you have ideas or want to contribute code, please feel free to do so. We believe in open collaboration.
