@@ -1,0 +1,24 @@
+.color-primary {
+  background-color: #007BFF; /* Blue for primary text color */
+  color: white; /* Background color for contrast */
+}
+
+.color-secondary {
+  background-color: #848b90; /* Gray for secondary text color */
+  color: white; /* Background color for contrast */
+}
+
+.color-danger {
+  background-color: #DC3545; /* Red for danger text color */
+  color: white; /* Background color for contrast */
+}
+
+.color-success {
+  background-color: #28A745; /* Green for success text color */
+  color: white; /* Background color for contrast */
+}
+
+.color-warning {
+  background-color: #ff8f07; /* Yellow or orange for warning text color */
+  color: white; /* Background color for contrast */
+}

@@ -1,0 +1,73 @@
+.cardboard {
+  padding: 10px;
+  background-color: #8b5a2b; /* Brown background color for the colored div */
+  background:-webkit-repeating-linear-gradient(90deg, #8b5a2b 0%, #9c6f44 25%, #8b5a2b 50%);
+  background:-o-repeating-linear-gradient(90deg, #8b5a2b 0%, #9c6f44 25%, #8b5a2b 50%);
+  background:-moz-repeating-linear-gradient(90deg, #8b5a2b 0%, #9c6f44 25%, #8b5a2b 50%);
+  background:repeating-linear-gradient(90deg, #8b5a2b 0px, #935f2f 17.5px, #8b5a2b 35px);
+}
+
+.cardboard.top {
+  padding-top: 20px;
+  margin-bottom: 20px; /* Add margin to create space below */
+  overflow: hidden;
+  position: relative;
+}
+
+.cardboard.top::before {
+  -webkit-clip-path: polygon(0 55%, 100% 55%, 100% 80%, 0 80%);
+  clip-path: polygon(0 55%, 100% 55%, 100% 80%, 0 80%);
+}
+
+.cardboard.top::before,
+.cardboard.top::after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, #8b5a2b 7px, #8b5a2b 10px, transparent 11px);
+  background-size: 35px 20px;
+  width: 125%;
+  height: 20px;
+  top:-2px;
+  left:-17.5px;
+  background-color: black;
+}
+
+.cardboard.top::after {
+  top: 0px;
+  left: 0px;
+  background-position: 0px -20px;
+  -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 45%, 0 45%);
+  clip-path: polygon(0 20%, 100% 20%, 100% 45%, 0 45%);
+}
+
+.cardboard.bottom {
+  padding-bottom: 20px;
+  margin-bottom: 20px; /* Add margin to create space below */
+  overflow: hidden;
+  position: relative;
+}
+
+.cardboard.bottom::before {
+  bottom: -.5px;
+  -webkit-clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+  clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+}
+
+.cardboard.bottom::before,
+.cardboard.bottom::after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, #8b5a2b 7px, #8b5a2b 10px, transparent 11px);
+  background-size: 35px 20px;
+  width: 125%;
+  height: 20px;
+  left: -17.5px;
+  background-color: black;
+}
+
+.cardboard.bottom::after {
+  left: 0px;
+  background-position: 0px -20px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 75%, 0 75%);
+  clip-path: polygon(0 75%, 100% 75%, 100% 50%, 0 50%);
+}

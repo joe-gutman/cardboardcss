@@ -1,0 +1,13 @@
+.button {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 0;
+  border: 0px;
+  transition: 0.15s, color 0.3s; /* Add smooth transition for hover effect */
+}
+
+.button:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}

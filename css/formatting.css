@@ -1,0 +1,40 @@
+/* Import 'Architects Daughter' font */
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+
+/* Import 'Patrick Hand' font */
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+/* Import 'Permanent Marker' font */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* Import 'Indie Flower' font */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+p {
+  font-size: 16pt;
+  margin: 0px;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  text-indent: 20px;
+}
+
+h1 {
+  font-size: 26pt;
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+.handwriting-pencil {
+  font-family: 'Architects Daughter';
+  /* Add other styling properties as needed */
+}
+
+.handwriting-pen {
+  font-family: 'Patrick Hand';
+  /* Add other styling properties as needed */
+}
+
+.handwriting-marker {
+  font-family: 'Permanent Marker', cursive;
+  /* Add other styling properties as needed */
+}
