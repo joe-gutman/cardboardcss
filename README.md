@@ -2,6 +2,12 @@
 
 Cardboard.CSS is a CSS framework designed easily make wireframes and prototypes visually appealing with depth and texture. It requires minimal effort through easy-to-use classes, all you have to do is create the structure and put in the content.
 
+## Browser Compatibility
+
+Cardboard CSS is optimized for Google Chrome and works well in this browser.It is recommend to use Chrome for compatibility.
+
+*Please note that Cardboard CSS is currently in development and intended for prototyping and experimentation. It may not be suitable for production use at this time. Feedback and contributions are welcome as we continue to improve the framework.*
+
 ## Getting Started
 
 ### Installation
